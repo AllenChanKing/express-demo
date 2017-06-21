@@ -1,3 +1,11 @@
+{{#extend 'css'}}
+    <link rel="stylesheet" href="/stylesheets/style.css">
+{{/extend}}
 <h1>{{title}}</h1>
 <p>Welcome to {{title}}</p>
-<p>this is index.hbs</p>
+<a href="javascript:;">this is index.hbs</a>
+{{#extend 'js'}}
+    <script>
+        alert('123');
+    </script>
+{{/extend}}
